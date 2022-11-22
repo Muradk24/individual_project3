@@ -5,7 +5,9 @@
       <map>
         <entry key="app/src/main/res/drawable-v24/myrectangle.xml" value="0.16" />
         <entry key="app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.16" />
-        <entry key="app/src/main/res/layout/activity_easylevel.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/drawable/snowman_walking.xml" value="0.125" />
+        <entry key="app/src/main/res/layout/activity_easylevel.xml" value="0.15327059980751812" />
+        <entry key="app/src/main/res/layout/activity_hardlevel.xml" value="0.1125" />
         <entry key="app/src/main/res/layout/activity_login_acitivity.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/activity_registration.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.19610507246376813" />

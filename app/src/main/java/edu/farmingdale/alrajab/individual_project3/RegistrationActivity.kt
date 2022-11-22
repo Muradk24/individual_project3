@@ -7,20 +7,18 @@ import android.widget.EditText
 import android.widget.Toast
 
 class RegistrationActivity : AppCompatActivity() {
+    lateinit var personName: EditText
+    lateinit var personPassword: EditText
+    lateinit var personEmailaddress: EditText
+    lateinit var personDateofbirth: EditText
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_registration)
-        lateinit var personName: EditText
-        lateinit var personPassword: EditText
-        lateinit var personEmailaddress: EditText
-        lateinit var personDateofbirth: EditText
-        override fun onCreate(savedInstanceState: Bundle?) {
-            super.onCreate(savedInstanceState)
-            setContentView(R.layout.activity_registration)
+
             personName = findViewById<EditText>(R.id.etPersonName) //Get the persons name in variable
             personPassword = findViewById<EditText>(R.id.etPassword)
             personEmailaddress = findViewById<EditText>(R.id.etEmailAddress)
-            personDateofbirth = findViewById<EditText>(R.id.etDate)
+            //personDateofbirth = findViewById<spi>(R.id.spinner)
             var registerButton = findViewById<Button>(R.id.registrationButton)
             registerButton.setOnClickListener {
                 if (checkValidation()) {
@@ -58,4 +56,4 @@ class RegistrationActivity : AppCompatActivity() {
 
 
 
-}
+
