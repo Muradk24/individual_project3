@@ -20,5 +20,10 @@ class BegingameActivity : AppCompatActivity() {
             val hardLevelIntent = Intent(this, HardlevelActivity::class.java)
             startActivity(  hardLevelIntent  )
         }
+        val gameruleBtn = findViewById<Button>(R.id.gamerulebutton)
+        gameruleBtn.setOnClickListener{
+            val gameruleBtnIntent = Intent(this,RulesActivity::class.java)
+            startActivity( gameruleBtnIntent )
+        }
     }
 }

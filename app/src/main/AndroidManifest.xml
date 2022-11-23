@@ -14,10 +14,22 @@
         android:theme="@style/Theme.Individual_project3"
         tools:targetApi="31">
         <activity
+            android:name=".RulesActivity"
+            android:exported="false" />
+        <activity
             android:name=".BegingameActivity"
             android:exported="false" />
         <activity
-            android:name=".StartgameActivity"
+            android:name=".EasyLevelStage2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".EasyLevelStage3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".HardActivityStage2"
+            android:exported="false" />
+        <activity
+            android:name=".HardActivityStage3"
             android:exported="false" />
         <activity
             android:name=".Reportactivity"
@@ -36,15 +48,13 @@
             android:exported="false" />
         <activity
             android:name=".SplashScreenActivity"
-            android:exported="true" ><intent-filter>
-        <action android:name="android.intent.action.MAIN" />
+            android:exported="true"
+            android:theme="@style/AppTheme.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-        <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter></activity>
-        <activity
-            android:name=".MainActivity"
-            android:exported="true">
-
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
     </application>
 

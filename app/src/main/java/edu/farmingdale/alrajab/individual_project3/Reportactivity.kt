@@ -62,11 +62,11 @@ class Reportactivity : AppCompatActivity() {
 
 //     on below line we are adding data
 //     to our bar entries list
-        barEntriesList.add(BarEntry(1f, intent.getFloatExtra("agrade", 0F)))
-        barEntriesList.add(BarEntry(2f, intent.getFloatExtra("bgrade", 0F)))
-        barEntriesList.add(BarEntry(3f, intent.getFloatExtra("cgrade", 0F)))
-        barEntriesList.add(BarEntry(4f, intent.getFloatExtra("dgrade", 0F)))
-        barEntriesList.add(BarEntry(5f, intent.getFloatExtra("fgrade", 0F)))
+        barEntriesList.add(BarEntry(1f, 5F))
+        barEntriesList.add(BarEntry(2f,6f))
+        barEntriesList.add(BarEntry(3f, 34f))
+        barEntriesList.add(BarEntry(4f, 4f))
+        barEntriesList.add(BarEntry(5f, 2f))
     }
 }
 
