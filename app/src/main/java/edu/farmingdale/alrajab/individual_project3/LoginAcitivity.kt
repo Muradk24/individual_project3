@@ -35,7 +35,7 @@ class LoginAcitivity : AppCompatActivity() {
                     editor.putString("useremail",userEmailaddress.text.toString())
                     editor.putString("password",userPassword.text.toString())
                     editor.commit()
-                    val intent = Intent(this, MainActivity::class.java)
+                    val intent = Intent(this, BegingameActivity::class.java)
                     startActivity(intent)
                     finish()
 

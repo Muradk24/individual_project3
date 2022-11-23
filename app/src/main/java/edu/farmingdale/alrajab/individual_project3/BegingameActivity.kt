@@ -11,12 +11,14 @@ class BegingameActivity : AppCompatActivity() {
         setContentView(R.layout.activity_begingame)
        val easyLevelBtn= findViewById<Button>(R.id.easylevelbutton)
         easyLevelBtn.setOnClickListener {
-
-
             val easyLevelIntent = Intent(this, EasylevelActivity::class.java)
-            startActivity(
-                easyLevelIntent
-            )
+            startActivity(  easyLevelIntent  )
+        }
+
+        val hardLevelBtn= findViewById<Button>(R.id.hardlevelbutton)
+        hardLevelBtn.setOnClickListener {
+            val hardLevelIntent = Intent(this, HardlevelActivity::class.java)
+            startActivity(  hardLevelIntent  )
         }
     }
 }
