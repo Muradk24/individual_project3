@@ -10,9 +10,12 @@
         <entry key="app/src/main/res/layout/activity_easylevel.xml" value="0.15327059980751812" />
         <entry key="app/src/main/res/layout/activity_hardlevel.xml" value="0.1125" />
         <entry key="app/src/main/res/layout/activity_login_acitivity.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/activity_registration.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/activity_reportactivity.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/activity_startgame.xml" value="0.1140625" />
+        <entry key="app/src/main/res/layout/dialog_result.xml" value="0.19610507246376813" />
       </map>
     </option>
   </component>
